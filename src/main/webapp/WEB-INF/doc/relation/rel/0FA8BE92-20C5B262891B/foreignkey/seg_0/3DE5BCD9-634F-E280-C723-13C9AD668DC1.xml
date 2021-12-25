@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DE5BCD9-634F-E280-C723-13C9AD668DC1" containerWithKeyObject="F39B7901-8D4F-B63B-E4E9-D10B78ADBC54" localFKIndex="9692FDCE-3EF8-BA81-63C4-1D59DF208605" name="SYS_C007738">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C007738</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<referredTableLongName>KD1.CATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDD9F3BE-AF08-DE55-8880-F80C1A403524</referredTableID>
+<keyObject>41C0DFE0-87A6-C62A-AEBF-B56D37777D16</keyObject>
+<referredKeyID>41C0DFE0-87A6-C62A-AEBF-B56D37777D16</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATENO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

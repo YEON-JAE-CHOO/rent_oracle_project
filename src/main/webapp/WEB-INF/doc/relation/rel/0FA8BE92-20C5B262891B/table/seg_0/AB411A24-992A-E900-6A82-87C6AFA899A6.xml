@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB411A24-992A-E900-6A82-87C6AFA899A6" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="CATEGRP">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>CATEGRP</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리그룹]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGRPNO" id="A8EB5421-CFE8-767A-504E-AD0C12F47D8B">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>CATEGRPNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 그룹 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="A2AC2194-632B-3406-EA9B-74F50385988B">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[이름]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQNO" id="DEA4B8B0-4FB8-23F5-26F4-DA91D0E1AE60">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>SEQNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력순서]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VISIBLE" id="F1E029F4-198E-ECAA-579B-015D854043C8">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>VISIBLE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[출력 모드]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="1F1E9D66-E44C-18D6-9C4F-A523B9C08FCC">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CATEGRP</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[그룹 생성일]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE56BF4B-A025-AA85-2BD0-BFB8EE3FBD37" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="CATEGRP_PK">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C007719</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8EB5421-CFE8-767A-504E-AD0C12F47D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

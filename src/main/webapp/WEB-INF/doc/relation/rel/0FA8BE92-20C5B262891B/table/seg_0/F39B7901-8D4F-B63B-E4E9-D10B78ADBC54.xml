@@ -1,0 +1,388 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F39B7901-8D4F-B63B-E4E9-D10B78ADBC54" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="CONTENTS">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>CONTENTS</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[컨텐츠 - 영화 상품]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTENTSNO" id="FD5218BC-F2CB-DE4B-DC4A-B8E0405E7ABB">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>CONTENTSNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[컨텐츠 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMINNO" id="2DD68747-1063-12A5-28AC-01CF63CFCF34">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>ADMINNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리자 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9289D535-F062-2C47-7B09-ECB9CB739768" referredColumn="81B034C1-5488-69BC-6506-A34C8CD85D57"/>
+</associations>
+</Column>
+<Column name="CATENO" id="BEC7D4F9-4BDB-EA3D-14A9-E5FC7C62979E">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>CATENO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[카테고리 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DE5BCD9-634F-E280-C723-13C9AD668DC1" referredColumn="5CDEE216-8394-6414-49F2-AE50BE1477A5"/>
+</associations>
+</Column>
+<Column name="TITLE" id="C5DBBC25-8CE5-2AE2-B837-2F6C93D3CE31">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[제목]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="E6D4E991-D865-AE42-7C3F-DAB0C7542299">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[내용]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECOM" id="1F5EDBEF-D715-5296-0FF8-66E523D1A187">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>RECOM</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[추천수]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNT" id="C00EFD1E-4A18-4372-DE54-860F74E8DADA">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>CNT</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[조회수]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLYCNT" id="B6BDCE87-565A-487D-7890-DB9CDA718D49">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>REPLYCNT</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[댓글수]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWD" id="57B71F6B-948C-E63D-6CF5-0D3431809263">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>PASSWD</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[패스워드]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WORD" id="530C81E7-414F-9269-6D62-97DA338A9906">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>WORD</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[검색어]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RDATE" id="DCC1D912-E0A0-7C5B-8824-6F6B4AF068FC">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>RDATE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록일]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE1" id="D858A1DC-3718-7975-620B-16DDFEE6890C">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>FILE1</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[메인 이미지]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE1SAVED" id="093E3D88-0ED4-341F-B4EA-B0758288BD1D">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>FILE1SAVED</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[실제 저장된 메인 이미지]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="THUMB1" id="72F86873-59FE-083D-CA9F-0FA767D893C8">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>THUMB1</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[메인 이미지 Preview]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIZE1" id="21A86B6C-46B1-CBD2-B6A9-6370274E9F78">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>SIZE1</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[ 메인 이미지 크기]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="B7BFFF8B-42A1-35A7-6FA9-4A5ECC1B3BFB">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[정가]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DC" id="F404BB67-1F0A-D492-18A4-23AADB575D88">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>DC</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[할인률]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALEPRICE" id="DFBDF4DC-623D-B3C2-2CAC-F896AC67E6DD">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>SALEPRICE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[판매가]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POINT" id="3C1C3E03-4425-5E2B-3E56-6121C969D6D5">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>POINT</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[포인트]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALECNT" id="D9D79FD5-49E8-EBED-6AC7-B0A1C2CA4547">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>CONTENTS</sourceObjSchema>
+<sourceObjName>SALECNT</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[수량]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBDA2F9D-DE47-4D88-02EB-CD5F1877CA64" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="CONTENTS_PK">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C007736</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD5218BC-F2CB-DE4B-DC4A-B8E0405E7ABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B27AA7B-3997-0189-618F-79E43C33F0DF" name="SYS_C007737">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD68747-1063-12A5-28AC-01CF63CFCF34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9692FDCE-3EF8-BA81-63C4-1D59DF208605" name="SYS_C007738">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEC7D4F9-4BDB-EA3D-14A9-E5FC7C62979E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A96A7CE-335F-D81D-8AD4-46E9ED39F7CE" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="MEMBER">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>MEMBER</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[회원]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBERNO" id="0576BCBE-D353-82EE-DD01-62F568F1A0F9">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MEMBERNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[회원 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="6CC434C0-3D35-AF61-7EDE-0E93CD656CE4">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[아이디]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWD" id="EDCA8D3F-7883-BCDC-B186-015D2CBF6EE8">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>PASSWD</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[패스워드]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MNAME" id="EB9C7608-C64A-DBA0-8623-CAEADCBDB2B0">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MNAME</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[성명]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="FD9A4A7C-4FB6-CE6D-3BAD-363189DFC498">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[전화번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIPCODE" id="D54417B3-2793-3A1C-CB79-54AF2D199CE2">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>ZIPCODE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[우편번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS1" id="A17817E7-8DAD-20E8-B324-915F5AA48E01">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>ADDRESS1</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[주소1]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS2" id="248D3512-0D39-21FD-B209-0E1D6DDE92C6">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>ADDRESS2</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[주소2]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDATE" id="E1083C58-ADD4-C04A-84B3-5892E60A085D">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>MDATE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[가입일]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADE" id="E1E69AA8-1115-1059-7C41-1E692CE002FA">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>MEMBER</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[등급]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F5009D3-8217-22F5-5DEE-A07DBFDCE336" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="MEMBER_PK">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C008065</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0576BCBE-D353-82EE-DD01-62F568F1A0F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96AB209D-6A8C-A725-F194-5F8F4793095B" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="MEMBER_ID_UN">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C008066</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CC434C0-3D35-AF61-7EDE-0E93CD656CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

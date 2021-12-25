@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EB3CCDD-74FD-474C-0DDF-5FAEDB780475" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="ADMIN">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>ADMIN</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:14:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리자]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<importedID>CAEA7F00-F526-BFE8-1284-33672C2CEA42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADMINNO" id="81B034C1-5488-69BC-6506-A34C8CD85D57">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>ADMINNO</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:14:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[관리자 번호]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<importedID>FC6604E4-5537-BE3C-238D-DFADCB61625E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="9ADDE776-BA1C-527A-0AF1-8DEDB945589E">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:14:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[아이디]]></commentInRDBMS>
+<ownerDesignName>relation</ownerDesignName>
+<importedID>2AAFE2D5-E9F2-E89A-4B9E-1C7E25D353D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B8898E8-EBF2-9532-1872-79D8C2056C42" schemaObject="7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9" name="ADMIN_PK">
+<sourceConnName>kd1</sourceConnName>
+<sourceObjSchema>KD1</sourceObjSchema>
+<sourceObjName>SYS_C007700</sourceObjName>
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:14:30 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<importedID>D292B92F-5D39-B634-1CC3-50799073D0CB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B034C1-5488-69BC-6506-A34C8CD85D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

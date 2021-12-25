@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CONTENTS" directorySegmentName="seg_0" id="F39B7901-8D4F-B63B-E4E9-D10B78ADBC54">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<schemaObject>7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>22ABCFE9-1EEE-0A1F-F453-96C4672541AB</segment>
+<tableSpace>F12A10E9-0DAD-1D90-A88C-B7422AFAAC83</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FILE1SAVED" id="093E3D88-0ED4-341F-B4EA-B0758288BD1D">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECOM" id="1F5EDBEF-D715-5296-0FF8-66E523D1A187">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SIZE1" id="21A86B6C-46B1-CBD2-B6A9-6370274E9F78">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ADMINNO" id="2DD68747-1063-12A5-28AC-01CF63CFCF34">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POINT" id="3C1C3E03-4425-5E2B-3E56-6121C969D6D5">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="WORD" id="530C81E7-414F-9269-6D62-97DA338A9906">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWD" id="57B71F6B-948C-E63D-6CF5-0D3431809263">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="THUMB1" id="72F86873-59FE-083D-CA9F-0FA767D893C8">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPLYCNT" id="B6BDCE87-565A-487D-7890-DB9CDA718D49">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="B7BFFF8B-42A1-35A7-6FA9-4A5ECC1B3BFB">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CATENO" id="BEC7D4F9-4BDB-EA3D-14A9-E5FC7C62979E">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CNT" id="C00EFD1E-4A18-4372-DE54-860F74E8DADA">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="C5DBBC25-8CE5-2AE2-B837-2F6C93D3CE31">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE1" id="D858A1DC-3718-7975-620B-16DDFEE6890C">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALECNT" id="D9D79FD5-49E8-EBED-6AC7-B0A1C2CA4547">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RDATE" id="DCC1D912-E0A0-7C5B-8824-6F6B4AF068FC">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALEPRICE" id="DFBDF4DC-623D-B3C2-2CAC-F896AC67E6DD">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CONTENT" id="E6D4E991-D865-AE42-7C3F-DAB0C7542299">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DC" id="F404BB67-1F0A-D492-18A4-23AADB575D88">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CONTENTSNO" id="FD5218BC-F2CB-DE4B-DC4A-B8E0405E7ABB">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007737" id="1B27AA7B-3997-0189-618F-79E43C33F0DF">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007738" id="9692FDCE-3EF8-BA81-63C4-1D59DF208605">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000075379C00005$$" id="3B3505D5-0AED-BD11-C44F-1AD6F7F69AAF">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:29 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>CONTENT</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>F12A10E9-0DAD-1D90-A88C-B7422AFAAC83</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTENTS_PK" id="DBDA2F9D-DE47-4D88-02EB-CD5F1877CA64">
+<createdBy>chj00</createdBy>
+<createdTime>2021-11-09 04:10:28 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<schemaObject>7FC8BEC0-8316-09F0-8B5D-6A09B93E03E9</schemaObject>
+<segment>28115549-2744-ECA4-006B-29E6C5ADAB70</segment>
+<tableSpace>F12A10E9-0DAD-1D90-A88C-B7422AFAAC83</tableSpace>
+<indexSegment>28115549-2744-ECA4-006B-29E6C5ADAB70</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

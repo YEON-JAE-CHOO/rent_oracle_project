@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: dev.mvc.bbs_v1sbm3c.BbsV1sbm3cApplication

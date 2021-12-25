@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<mapper namespace="dev.mvc.cargrp.CargrpDAOInter"> 
+  <!-- 등록, 입력: CargrpVO, 리턴: 등록된 레코드 갯수  -->
+  <insert id="create" parameterType="dev.mvc.cargrp.CargrpVO"> 
+INSERT INTO cargrp(cargrpno, cargrpname,file1,file1saved,thumb1,size1)
+VALUES(categrp_seq.nextval, #{cargrpname}, #{file1}, #{file1saved}, #{thumb1}, #{size1})
+  </insert>
+ 
+   <!-- 
+  레코드 갯수 만큼 CargrpVO 객체를 만들어 ArrayList에 저장하여 리턴,
+  List<CargrpVO> list = new ArrayList<CargrpVO>(); 
+  -->
+ <select id="list_cargrpno_asc" resultType="dev.mvc.cargrp.CargrpVO">
+SELECT cargrpno, cargrpname,file1,file1saved,thumb1,size1
+FROM cargrp
+ORDER BY cargrpno ASC
+  </select>
+  
+    <!-- 조회, id: read, 입력: cargrpno, 리턴: cargrpVO -->
+  <select id="read" resultType="dev.mvc.cargrp.CargrpVO" parameterType="int">
+SELECT cargrpno, cargrpname,file1,file1saved,thumb1,size1
+FROM cargrp
+WHERE cargrpno = #{cargrpno}
+  </select>
+  
+    <!-- 삭제 처리, id=delete, 입력: PK, 리턴: 삭제된 갯수 int -->
+  <delete id="delete" parameterType="int">
+    delete 
+    from cargrp
+    WHERE cargrpno =#{cargrpno}
+  </delete>
+    <!-- 수정, id: update, 입력: CategrpVO, 리턴: int -->
+  <update id="update" parameterType="dev.mvc.cargrp.CargrpVO">
+    UPDATE cargrp
+    SET cargrpname=#{cargrpname},file1=#{file1},file1saved=#{file1saved},thumb1=#{thumb1},size1=#{size1}
+    WHERE cargrpno =#{cargrpno}
+  </update>
+  
+  
+   
+</mapper> 
